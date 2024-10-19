@@ -1,0 +1,72 @@
+/* sidebar.module.css */
+.navbar {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color:  #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    transition: left 0.3s ease;
+    z-index: 999;
+    box-shadow: 0.5px 0 0px rgba(0, 0, 0, 0.5);
+  
+  }
+  
+  .open {
+    left: 0;
+  }
+  
+  .link {
+    color: grey;
+    text-decoration: none;
+    padding: 15px 0;
+    margin: 10px 0;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  .activeLink {
+    
+    color: gray;
+    border-radius: 8px;
+  }
+  
+  .link:hover {
+    background-color:white;
+  
+    border-radius: 8px;
+  }
+  
+  .icon {
+    margin-right: 15px;
+    font-size: 20px;
+  }
+  
+  .menuButton {
+    position: fixed;
+    top: 20px;
+    left: 30px;
+ 
+    border: none;
+   background-color: transparent;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .content {
+    transition: margin-left 0.3s ease;
+    padding: 20px;
+  }
+  
+  .shifted {
+    margin-left: 200px; /* Adjust according to the width of your sidebar */
+  }
+  

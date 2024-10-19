@@ -1,0 +1,24 @@
+/* Control the modal height and ensure it's compact */
+.customModal .modal-dialog {
+    max-width: 400px; /* Control the width */
+  }
+  
+  .customModal .modal-content {
+    max-height: 100px; /* Set maximum height for the modal */
+    overflow-y: auto; /* Enable scrolling if content exceeds height */
+  }
+  
+  .customModalBody {
+    padding: 1rem; /* Adjust padding for compactness */
+  }
+  
+  @media (max-width: 768px) {
+    .customModal .modal-dialog {
+      max-width: 90%; /* Responsive modal width on mobile */
+    }
+  
+    .customModal .modal-content {
+      max-height: 50px; /* Reduce height further on mobile */
+    }
+  }
+  

@@ -1,0 +1,51 @@
+.loginContainer {
+    background-color: #f0f0f0;
+
+  }
+  
+  .formCol {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+  }
+  
+  .loginTitle {
+    font-size: 2rem; /* Increase the font size of the title */
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .loginForm {
+    padding: 0;
+  }
+  
+  .inputField {
+    padding: 1rem; /* Increase padding for a larger field */
+    font-size: 1.2rem; /* Increase font size */
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+  }
+  
+  .inputField:focus {
+    border-color: #000;
+    box-shadow: none;
+  }
+  
+  .loginButton {
+    width: 100%;
+    padding: 1rem; /* Increase padding for a larger button */
+    font-size: 1.2rem; /* Increase font size */
+    font-weight: bold;
+    border-radius: 6px;
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .loginButton:hover {
+    background-color: #333;
+  }
+  
